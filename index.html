@@ -631,13 +631,13 @@ const BOOKMARKS = [
       { name: "Intranet (New)",            url: "https://hauoraaotearoa.sharepoint.com/sites/la-CapitalCoast-HuttValley/", note: "Migration still in process." },
       { name: "Intranet (Old)",            url: "https://3dhb.sharepoint.com/sites/ccdhbintranet/Pages/Home.aspx",          note: "Still holds some pages that haven't moved across." },
       { name: "Rosters",                   url: "https://hauoraaotearoa.sharepoint.com/sites/1001567/CCHV/Forms/Grouped.aspx", note: "Most rosters including Gen Med HOs" },
-      { name: "Med Reg Roster",            url: "file://ad.ccdhb.health.nz/Depts/CCDHB/Rosters/Medical/Medical_Roster.xlsx",  note: "Not yet migrated." },
+      { name: "Med Reg Roster",            url: "file://ad.ccdhb.health.nz/Depts/CCDHB/Rosters/Medical/Medical_Roster.xlsx",  note: "Not yet migrated. Opens from bookmark only." },
       { name: "Payroll Kiosk",             url: "https://pwebleader.ad.ccdhb.health.nz/kiosk/",                             note: "Payslips, leave balances and leave requests." },
       { name: "General Medicine Intranet", url: "https://hauoraaotearoa.sharepoint.com/sites/la-CapitalCoast-HuttValley/SitePages/General-Medicine.aspx", note: "" },
       { name: "District Docs (SilentOne)", url: "https://silentone/silentone/",                                            note: "CCHV departmental guidelines and policies." },
       { name: "Capital & Coast directory", url: "http://webphonelist/GenericList.asp",                                     note: "Staff and extension lookup." },
       { name: "Hutt Valley directory",     url: "https://intranet.huttvalleydhb.org.nz/directory/staff-directory/",         note: "" },
-      { name: "IT Service Desk",           url: "https://support.tewhatuora.govt.nz/esc",                                  note: "Logins, access and hardware problems." }
+      { name: "IT Service Desk",           url: "https://support.tewhatuora.govt.nz/esc",                                  note: "Logins, access and hardware problems." },
       { name: "TXT / SMS system",          url: "http://websmstexting/default.aspx?DHB=CCDHB",                             note: "" },
       { name: "Outlook",                   url: "https://outlook.cloud.microsoft/",                                        note: "If sign-in loops, open it in an incognito window." },
       { name: "Teams",                     url: "https://teams.cloud.microsoft.com",                                       note: "If sign-in loops, open it in an incognito window." },
@@ -650,10 +650,10 @@ const BOOKMARKS = [
     note: "Patient records and paging. Network access required.",
     defaultOn: true,
     links: [
-      { name: "Single Clinical Portal",    url: "https://clinicalportal.ad.ccdhb.health.nz/concerto/Login.htm",            note: "" },
-      { name: "Old Portal",                url: "http://ehr/concerto/Login.htm",                                           note: "Won't load in Chrome. Open it in Internet Explorer, or in Edge with IE mode turned on.", flag: "Internet Explorer only" },
-      { name: "NOPIS (renal database)",    url: "http://nopis/login.aspx",                                                 note: "" },
-      { name: "SmartPage",                 url: "https://ccdhb.smartpageapp.com/",                                        note: "" }
+      { name: "Single Clinical Portal",    url: "https://clinicalportal.ad.ccdhb.health.nz/concerto/Login.htm",            note: "Will automatically open in Edge/IE." },
+      { name: "Old Portal",                url: "http://ehr/concerto/Login.htm",                                           note: "Won't load in Chrome. Open it in IE, or in Edge with IE mode turned on.", flag: "Internet Explorer only" },
+      { name: "NOPIS (renal database)",    url: "http://nopis/login.aspx",                                                 note: "Renal patient database, dialysis notes." },
+      { name: "SmartPage",                 url: "https://ccdhb.smartpageapp.com/",                                        note: "House Officer tasks and communication." }
     ]
   },
 
@@ -670,7 +670,7 @@ const BOOKMARKS = [
       { name: "UpToDate",                  url: "https://www.uptodate.com/contents/search",                    note: "If you log in to your (free) account on a hospital computer, it links and you have (renewable) access for 3 months on up to 3 devices." },
       { name: "eTG Therapeutic Guidelines", url: "https://tgldcdp.tg.org.au/etgAccess",                        note: "Australian, but an excellent general reference." },
       { name: "NZSSD",                      url: "https://www.nzssd.org.nz",                        note: "NZ diabetes guidelines." },
-      { name: "NZ STI Guidelines",                      url: "https://sti.guidelines.org.nz",                        note: "Primary care focus, but complements/extends Te Whata Kura." },
+      { name: "NZ STI Guidelines",           url: "https://sti.guidelines.org.nz",                        note: "Primary care focus, but complements/extends Te Whata Kura." },
       { name: "OpenEvidence",              url: "https://www.openevidence.com/",                               note: "Free, but you'll need to make an account." },
       { name: "Guideline Central",              url: "https://www.guidelinecentral.com",                               note: "A useful aggregate website compiling a huge array of guidelines. If you aren't sure where to start, this is worth a try!" },
       { name: "UKCPA Perioperative Medicines Handbook",              url: "https://periop-handbook.ukclinicalpharmacy.org",                               note: "Perioperative medicines management, endorsed by our Anaesthetic colleagues. Check local pathways first but few exist – this is a safe start." }
