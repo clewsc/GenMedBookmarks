@@ -637,10 +637,11 @@ const BOOKMARKS = [
       { name: "District Docs (SilentOne)", url: "https://silentone/silentone/",                                            note: "CCHV departmental guidelines and policies." },
       { name: "Capital & Coast directory", url: "http://webphonelist/GenericList.asp",                                     note: "Staff and extension lookup." },
       { name: "Hutt Valley directory",     url: "https://intranet.huttvalleydhb.org.nz/directory/staff-directory/",         note: "" },
-      { name: "TXT / SMS system",          url: "http://websmstexting/default.aspx?DHB=CCDHB",                             note: "" },
-      { name: "Outlook",                   url: "https://outlook.office365.com/mail/inbox",                                note: "If sign-in loops, open it in an incognito window." },
-      { name: "Teams",                     url: "https://teams.microsoft.com/v2/?skipauthstrap=1",                          note: "" },
       { name: "IT Service Desk",           url: "https://support.tewhatuora.govt.nz/esc",                                  note: "Logins, access and hardware problems." }
+      { name: "TXT / SMS system",          url: "http://websmstexting/default.aspx?DHB=CCDHB",                             note: "" },
+      { name: "Outlook",                   url: "https://outlook.cloud.microsoft/",                                        note: "If sign-in loops, open it in an incognito window." },
+      { name: "Teams",                     url: "https://teams.cloud.microsoft.com",                                       note: "If sign-in loops, open it in an incognito window." },
+      { name: "OneDrive",                  url: "https://portal.office.com/onedrive",                                      note: "Much faster access to Sharepoint files." },
     ]
   },
 
@@ -661,15 +662,15 @@ const BOOKMARKS = [
     note: "Prescribing and clinical reference — worth having all of these.",
     defaultOn: true,
     links: [
-      { name: "Preferred Medicines List",  url: "https://3dpml.carepathways.tewhatuora.govt.nz/",              note: "Local PML — check here first." },
+      { name: "Preferred Medicines List",  url: "https://3dpml.carepathways.tewhatuora.govt.nz/",              note: "Local PML guidelines - check here first." },
       { name: "Antimicrobial (Te Whata Kura)", url: "https://tewhatakura.nz",                                  note: "National antimicrobial guidance." },
       { name: "ED Guidelines",             url: "http://edguidelines/Default.aspx",                            note: "Internal network only." },
       { name: "3D Health Pathways",        url: "https://3d.communityhealthpathways.org/",                     note: "Primary care pathways and referral criteria." },
-      { name: "BPAC",                      url: "https://bpac.org.nz",                                         note: "Primary care guidance." },
+      { name: "BPAC",                      url: "https://bpac.org.nz",                                         note: "Primary care guidance and references." },
       { name: "UpToDate",                  url: "https://www.uptodate.com/contents/search",                    note: "If you log in to your (free) account on a hospital computer, it links and you have (renewable) access for 3 months on up to 3 devices." },
       { name: "eTG Therapeutic Guidelines", url: "https://tgldcdp.tg.org.au/etgAccess",                        note: "Australian, but an excellent general reference." },
       { name: "NZSSD",                      url: "https://www.nzssd.org.nz",                        note: "NZ diabetes guidelines." },
-      { name: "NZ STI Guidelines",                      url: "https://sti.guidelines.org.nz",                        note: "Primary care focus, but complements/extends Te Whatakura." },
+      { name: "NZ STI Guidelines",                      url: "https://sti.guidelines.org.nz",                        note: "Primary care focus, but complements/extends Te Whata Kura." },
       { name: "OpenEvidence",              url: "https://www.openevidence.com/",                               note: "Free, but you'll need to make an account." },
       { name: "Guideline Central",              url: "https://www.guidelinecentral.com",                               note: "A useful aggregate website compiling a huge array of guidelines. If you aren't sure where to start, this is worth a try!" },
       { name: "UKCPA Perioperative Medicines Handbook",              url: "https://periop-handbook.ukclinicalpharmacy.org",                               note: "Perioperative medicines management, endorsed by our Anaesthetic colleagues. Check local pathways first but few exist – this is a safe start." }
@@ -691,10 +692,10 @@ const BOOKMARKS = [
     note: "Imaging viewers, lab test guides and transfusion reference.",
     defaultOn: true,
     links: [
-      { name: "Pacific Radiology PACS",  url: "https://pacs.pacificradiology.com/Portal/app#/",                                       note: "" },
-      { name: "Affinity Radiology PACS", url: "https://pacs.affinityimaging.co.nz/Portal/app",                                        note: "" },
+      { name: "Pacific Radiology PACS",  url: "https://pacs.pacificradiology.com/Portal/app#/",                                       note: "Increasing number of scans outsourced. Can apple for a free account." },
+      { name: "Affinity Radiology PACS", url: "https://pacs.affinityimaging.co.nz/Portal/app",                                        note: "Increasing number of scans outsourced. Can apple for a free account." },
       { name: "Awanui lab test guide",   url: "https://scg.labapps.nz/#/WEL/",                                                        note: "Tubes, turnaround times and reference ranges." },
-      { name: "Awanui microbiology",     url: "https://www.awanuilabs.co.nz/central/wellington/for-referrers/microbiology/",           note: "" },
+      { name: "Awanui Microbiology Resources",     url: "https://www.awanuilabs.co.nz/central/wellington/for-referrers/microbiology/",           note: "Diagnostic and clinical tips for common infections." },
       { name: "Transfusion Medicine Handbook", url: "https://www.nzblood.co.nz/healthcare-professionals/transfusion-medicine/transfusion-medicine-handbook", note: "NZ Blood." }
     ]
   },
@@ -704,10 +705,10 @@ const BOOKMARKS = [
     note: "National services — occasional use.",
     defaultOn: false,
     links: [
-      { name: "Immunisation Handbook",     url: "https://www.healthnz.govt.nz/health-professionals/guidance-standards/topic/immunisation/immunisation-handbook-2026-version-2", note: "2026, version 2." },
-      { name: "Special Authority look-up", url: "https://esa.moh.health.nz/home/",   note: "Check whether a patient already has one." },
+      { name: "Immunisation Handbook",     url: "https://www.healthnz.govt.nz/health-professionals/guidance-standards/topic/immunisation/immunisation-handbook-2026-version-2", note: "NZ Immunisation Schedule and Handbook" },
+      { name: "Special Authority look-up", url: "https://esa.moh.health.nz/home/",   note: "Check whether a patient already has a SA." },
       { name: "Apply for Special Authority", url: "https://esa.moh.health.nz/nz21/saweb/", note: "Wellington site code is 101201." },
-      { name: "Occupational Health",       url: "https://hauoraaotearoa.sharepoint.com/sites/la-CapitalCoast-HuttValley/SitePages/Occupational-health-and-wellbeing.aspx", note: "Health and wellbeing support for staff." }
+      { name: "Occupational Health",       url: "https://hauoraaotearoa.sharepoint.com/sites/la-CapitalCoast-HuttValley/SitePages/Occupational-health-and-wellbeing.aspx", note: "Includes post-exposure prophyalxis and key contacts." }
     ]
   }
 
